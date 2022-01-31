@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Gallery</a>
+        <a href="">Blog</a>
+        <a href="">My Inventory</a>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <table>
+          <tr>
+            <td class="images">
+              <img src="iamges.png" alt="">
+            </td>
+
+            <td class="profile">
+              <h1 id="Nama">Mohamad Syaipul Anwar</h1>
+              <p id="Role">Front End Designer</p>
+              <table>
+                <tr>
+                  <td><button class="btn btn-primary">Kontak</button></td>
+                  <td><button class="btn-white">Resume</button></td>
+                </tr>
+              </table>
+            </td>
+
+            <td id="profile">
+              <p><strong>Available</strong></p>
+              <p><strong>Usia</strong></p>
+              <p><strong>Lokasi</strong></p>
+              <p><strong>Pengalaman</strong></p>
+              <p><strong>Email</strong></p>
+            </td>
+
+            <td id="isi">
+              <p id="Available">Full Time</p>
+              <p id="Age">17</p>
+              <p id="Lokasi">Jakarta, Indonesia</p>
+              <p id="Years">2</p>
+              <p id="Email">Syaipulanwar34.sar@gmail.com</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <form action="" id="form" onsubmit="return false">
+          <label for="">Nama<br></label>
+          <input type="text" id="nama"><br>
+          <label for="">Role<br></label>
+          <input type="text" id="role"><br>
+          <label for="">Availablity<br></label>
+          <input type="text" id="availablity"><br>
+          <label for="">Age<br></label>
+          <input type="text" id="age"><br>
+          <label for="">Lokasi<br></label>
+          <input type="text" id="lokasi"><br>
+          <label for="">Years Experience<br></label>
+          <input type="text" id="years"><br>
+          <label for="">Email<br></label>
+          <input type="text" id="email"><br>
+          <input type="submit" name="submit" value="SUBMIT" class="btn-submit" onclick=tampilkan() />
+        </form>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
